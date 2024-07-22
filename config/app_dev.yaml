@@ -1,0 +1,26 @@
+# 数据库配置
+db_config:
+  adepter: postgres
+  user: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+  database: cwmdb
+  ssl: disable
+
+# minio配置
+minio_config:
+  endpoint: localhost:9100
+  accessKeyID: minioadmin
+  secretAccessKey: minioadmin
+  ssl: false
+  bucket: local
+
+
+# 区域编码
+region_index_code:
+  code: cfc71c6ec59d44b29d60673727b1d308  # 三亚
+
+
+# 路由contextPath
+context_path: /cwm-tms-gateway

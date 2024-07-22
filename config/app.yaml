@@ -1,0 +1,3 @@
+env:
+  run: dev
+  port: 6020
